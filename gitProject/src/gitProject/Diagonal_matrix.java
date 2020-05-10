@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Diagonal_matrix {
 	public static void main (String[] args) 
 	{
-		Scanner sc=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);                 //Declared an object of scanner class
 		int num=sc.nextInt();
 		int a[][]=new int[num][num];
 		int e=0;
@@ -49,7 +49,5 @@ public class Diagonal_matrix {
 			val=e-r;
 		}
 		System.out.println(val);
-
-
 }
 }
